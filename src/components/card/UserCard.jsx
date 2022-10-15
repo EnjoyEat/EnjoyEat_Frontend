@@ -4,13 +4,16 @@ const UserCard = (props) => {
   return (
     <>
       <StyledCard>
-        <div className=" p-7">
-          <img className="rounded-full shadow-lg shadow-[#aeadac]" src={props.img && props.img} />
+        <div className="w-full h-2/3 p-7">
+          <img
+            className="w-full h-full object-cover rounded-full shadow-lg shadow-[#aeadac]"
+            src={props.img && props.img}
+          />
         </div>
         <div className="w-full flex justify-center font-bold text-lg">
           {props.name && props.name}
         </div>
-        <div className="px-3 py-1">돈까스 맛집 제가 잘 알고 있습니다.</div>
+        <div className="px-3 py-1">돈까스 맛집 제가 더 잘 알아요.</div>
       </StyledCard>
     </>
   );
