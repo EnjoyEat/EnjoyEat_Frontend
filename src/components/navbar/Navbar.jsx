@@ -18,11 +18,14 @@ const Navbar = () => {
         <div className="my-4">
           <button
             onClick={() => navigate('/스윙스/create')}
-            className="text-lg text-[#a19d9d] px-5"
+            className="text-lg text-[#a19d9d] px-2 hover:bg-gray-100 hover:opacity-70 duration-500"
           >
-            깃발 꽂기
+            깃발 꽂으러 가기
           </button>
-          <button onClick={() => onClickModalOpen()} className="text-lg text-[#a19d9d] px-5">
+          <button
+            onClick={() => onClickModalOpen()}
+            className="text-lg text-[#a19d9d] px-2 hover:bg-gray-100 hover:opacity-70 duration-500"
+          >
             로그인
           </button>
         </div>

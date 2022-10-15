@@ -1,5 +1,6 @@
 import UserCard from 'components/card/UserCard';
 import Moon from 'assets/스윙스.jpg';
+import Baek from 'assets/백종원.jpg';
 import Navbar from 'components/navbar/Navbar';
 import { Container, Layout } from 'util/GlobalStyle';
 import { Link } from 'react-router-dom';
@@ -16,8 +17,8 @@ const MainPage = () => {
           <Link to="/스윙스">
             <UserCard img={Moon} name={'스윙스'} />
           </Link>
-          <Link to="/스윙스">
-            <UserCard img={Moon} name={'스윙스'} />
+          <Link to="/백종원">
+            <UserCard img={Baek} name={'백종원'} />
           </Link>
           <Link to="/스윙스">
             <UserCard img={Moon} name={'스윙스'} />
