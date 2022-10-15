@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Logo from './Homebutton';
 import KakaoLoginImg from 'assets/KakaoLogin.png';
 import { useNavigate } from 'react-router-dom';
+import Moon from 'assets/스윙스.jpg';
+import ProfileIcon from './ProfileIcon';
 
 const Navbar = () => {
   const [modalState, setModalState] = useState(false);
@@ -15,18 +17,15 @@ const Navbar = () => {
     <div>
       <div className="flex justify-between">
         <Logo />
-        <div className="my-4">
-          <button
-            onClick={() => navigate('/스윙스/create')}
-            className="text-lg text-[#a19d9d] px-2 hover:bg-gray-100 hover:opacity-70 duration-500"
-          >
-            깃발 꽂으러 가기
-          </button>
+        <div className="flex items-center">
           <button
             onClick={() => onClickModalOpen()}
             className="text-lg text-[#a19d9d] px-2 hover:bg-gray-100 hover:opacity-70 duration-500"
           >
             로그인
+          </button>
+          <button>
+            <ProfileIcon image={Moon} />
           </button>
         </div>
       </div>
