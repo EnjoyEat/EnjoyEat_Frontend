@@ -2,9 +2,9 @@ import React from 'react';
 import Modal from 'components/modal/Modal';
 import { useState } from 'react';
 import Logo from './Homebutton';
-import KakaoLoginImg from 'assets/KakaoLogin.png';
+import KakaoLoginImg from 'assets/image/KakaoLogin.png';
 import { useNavigate } from 'react-router-dom';
-import Moon from 'assets/스윙스.jpg';
+import Moon from 'assets/image/스윙스.jpg';
 import ProfileIcon from './ProfileIcon';
 
 const Navbar = () => {

@@ -1,4 +1,4 @@
-import LogoImg from 'assets/Logo.png';
+import LogoImg from 'assets/image/Logo.png';
 import { Link } from 'react-router-dom';
 
 const HomeButton = () => {

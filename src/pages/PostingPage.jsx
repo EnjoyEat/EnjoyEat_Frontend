@@ -3,8 +3,8 @@ import Logo from 'components/navbar/Homebutton';
 import { useNavigate } from 'react-router-dom';
 import { Container, Layout } from 'util/GlobalStyle';
 import { useState } from 'react';
-import 카와카츠 from 'assets/카와카츠.jpg';
-import Close from 'assets/Close.png';
+import 카와카츠 from 'assets/image/카와카츠.jpg';
+import Close from 'assets/image/Close.png';
 import styled from 'styled-components';
 
 const PostingPage = () => {
@@ -36,7 +36,7 @@ const PostingPage = () => {
                     <button className="bg-orange-200 w-14 rounded-xl">검색</button>
                   </div>
                   <div
-                    className="w-4/5 flex p-2 rounded-xl h-1/5 m-3 outline outline-1 outline-[#dad2d2] cursor-pointer shadow-lg shadow-[#3e3e3e] hover:scale-[1.03] duration-500"
+                    className="w-4/5 flex p-2 rounded-xl h-1/5 m-3 outline outline-1 outline-[#dad2d2] cursor-pointer shadow-lg shadow-[#eaeaea] hover:scale-[1.03] duration-500"
                     onClick={() => setSearchModal(false)}
                   >
                     <img className="w-1/5 rounded-xl mr-2 object-cover" src={카와카츠}></img>
@@ -46,7 +46,7 @@ const PostingPage = () => {
                     </div>
                   </div>
                   <div
-                    className="w-4/5 flex p-2 rounded-xl h-1/5 m-3 outline outline-1 outline-[#dad2d2] cursor-pointer shadow-lg shadow-[#3e3e3e] hover:scale-[1.03] duration-500"
+                    className="w-4/5 flex p-2 rounded-xl h-1/5 m-3 outline outline-1 outline-[#dad2d2] cursor-pointer shadow-lg shadow-[#eaeaea] hover:scale-[1.03] duration-500"
                     onClick={() => setSearchModal(false)}
                   >
                     <img className="w-1/5 rounded-xl mr-2 object-cover" src={카와카츠}></img>
@@ -56,7 +56,7 @@ const PostingPage = () => {
                     </div>
                   </div>
                   <div
-                    className="w-4/5 flex p-2 rounded-xl h-1/5 m-3 outline outline-1 outline-[#dad2d2] cursor-pointer shadow-lg shadow-[#3e3e3e] hover:scale-[1.03] duration-500"
+                    className="w-4/5 flex p-2 rounded-xl h-1/5 m-3 outline outline-1 outline-[#dad2d2] cursor-pointer shadow-lg shadow-[#eaeaea] hover:scale-[1.03] duration-500"
                     onClick={() => setSearchModal(false)}
                   >
                     <img className="w-1/5 rounded-xl mr-2 object-cover" src={카와카츠}></img>
@@ -65,6 +65,7 @@ const PostingPage = () => {
                       <div>주소 : 서울시 서대문구 서교동 20-1</div>
                     </div>
                   </div>
+
                   <button className="absolute right-5 top-5" onClick={() => setSearchModal(false)}>
                     <StyledImg className="h-8 w-8" src={Close} />
                   </button>
