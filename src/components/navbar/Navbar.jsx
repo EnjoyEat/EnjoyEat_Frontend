@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <button
             onClick={() => onClickModalOpen()}
-            className="text-lg text-[#a19d9d] px-2 hover:bg-gray-100 hover:opacity-70 duration-500"
+            className="text-lg text-[#a19d9d] px-2 hover:bg-gray-100 hover:opacity-70 duration-500 rounded-lg"
           >
             로그인
           </button>
