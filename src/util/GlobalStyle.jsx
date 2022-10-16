@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
-import Background from 'assets/Background.png';
+import Background from 'assets/image/Background.png';
 
 export const GlobalStyle = createGlobalStyle`
    *, *::before, *::after {
@@ -8,12 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'NotoSerifKR-Medium';
-    line-height: 1.6;
-  }
-
-  h1 {
-    font-family: 'NotoSerifKR-Medium';
+    font-family: 'Pretendard-Light';
     line-height: 1.6;
   }
   

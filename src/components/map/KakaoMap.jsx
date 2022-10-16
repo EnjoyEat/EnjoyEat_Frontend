@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Map, MapMarker } from 'react-kakao-maps-sdk';
-import Flag from 'assets/Flag.png';
+import Flag from 'assets/image/Flag.png';
 
 const KakaoMap = () => {
   const { kakao } = window;
