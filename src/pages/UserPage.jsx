@@ -122,10 +122,10 @@ const UserPage = () => {
               );
             })}
           </div>
-          <div className="grid grid-cols-3 px-20">
+          <div className="grid grid-cols-4 px-20">
             {data.map((item) => {
               return (
-                <div className="p-5 outline outline-1 shadow-lg cursor-pointer shadow-[#636161} m-5 flex flex-col items-center justify-center rounded-lg bg-white">
+                <div className="p-5 outline outline-1 outline-[#f5f5f5] shadow-lg cursor-pointer shadow-[#636161} m-3 flex flex-col items-center justify-center rounded-lg bg-white hover:scale-[1.02] duration-500">
                   <img className="rounded-lg" src={카와카츠}></img>
                   <div className="text-xl py-2">{item.id}</div>
                   <div>{item.rating}</div>
