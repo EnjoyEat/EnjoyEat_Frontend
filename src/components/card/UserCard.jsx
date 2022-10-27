@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const UserCard = (props) => {
   return (
@@ -13,7 +13,7 @@ const UserCard = (props) => {
         <div className="w-full flex justify-center font-bold text-lg">
           {props.name && props.name}
         </div>
-        <div className="px-3 py-1">돈까스 맛집 제가 더 잘 알아요.</div>
+        <div className="px-3 py-1">{props.introduce}</div>
       </StyledCard>
     </>
   );
@@ -29,7 +29,8 @@ const StyledCard = styled.div`
   outline-width: 1px;
   outline-color: #eaecee;
   background-color: #ffffff;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
   position: relative;
   flex-direction: column;
   width: 200px;
