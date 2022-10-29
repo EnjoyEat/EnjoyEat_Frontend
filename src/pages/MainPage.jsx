@@ -4,6 +4,7 @@ import Baek from "assets/image/백종원.jpg";
 import Navbar from "components/navbar/Navbar";
 import { Container, Layout } from "util/GlobalStyle";
 import { Link } from "react-router-dom";
+import Footer from "components/footer/Footer";
 
 const MainPage = () => {
   const data = [
@@ -34,6 +35,7 @@ const MainPage = () => {
             );
           })}
         </div>
+        <Footer />
       </Container>
     </Layout>
   );
