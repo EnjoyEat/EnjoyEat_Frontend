@@ -44,9 +44,9 @@ const UserPage = () => {
     "중구",
     "중랑구",
   ];
-  const [filterState, setFilterState] = useState(false);
+  // const [filterState, setFilterState] = useState(false);
   const onClickFilterHandler = () => {
-    setFilterState(true);
+    //   setFilterState(true);
   };
   const data = [
     {
@@ -104,7 +104,7 @@ const UserPage = () => {
       category: ["고기", "족발"],
     },
   ];
-  const [guState, setGuState] = useState(new Array(GuList.length));
+  // const [guState, setGuState] = useState(new Array(GuList.length));
   return (
     <Layout>
       <Container>
