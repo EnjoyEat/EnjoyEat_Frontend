@@ -5,8 +5,15 @@ import Navbar from "components/navbar/Navbar";
 import { Container, Layout } from "util/GlobalStyle";
 import { Link } from "react-router-dom";
 import Footer from "components/footer/Footer";
+import { useEffect } from "react";
+import { instances } from "api/api";
 
 const MainPage = () => {
+  useEffect(() => {
+    instances.test().then((res) => {
+      console.log(res);
+    });
+  }, []);
   const data = [
     { name: "스윙스", image: Moon, introduce: "안녕하시렵니까1" },
     { name: "스윙스2", image: Moon, introduce: "안녕하시렵니까2" },
